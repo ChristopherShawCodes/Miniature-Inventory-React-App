@@ -1,0 +1,21 @@
+.all-inventory-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #FFF3E4;
+  }
+
+ .all-inventory-title{
+  position: absolute;
+  top: 10%;
+  font-size: 3rem;
+ }
+
+ .product-wrapper{
+  margin-top: 8rem;
+ }
+

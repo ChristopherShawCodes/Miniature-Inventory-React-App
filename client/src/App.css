@@ -1,0 +1,55 @@
+
+::root{
+  --brownColor: rgb(72, 52, 52);
+  --brownHoverColor: rgb(107, 79, 79);
+  --mainBodyColor: rgb(255, 243, 228);
+  --lightBrown: rgb(238, 214, 196);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--mainBodyColor);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+input{
+  border-radius: 1.6rem;
+}
+
+
+
+
+
+h1 {
+  position: relative;
+  margin: 0 auto;
+  top: 25vh;
+  width: 100vw;
+  text-align: center;
+  font-family: "Amatic SC";
+  font-size: 6vh;
+  color: #333;
+  opacity: 0.75;
+}
+
+.cook-book{
+  font-size: smaller;
+}
+
+.orange{
+  color: orange;
+}

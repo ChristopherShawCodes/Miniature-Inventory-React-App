@@ -1,0 +1,94 @@
+
+.error{
+    font-size: 2rem;
+}
+
+.form-container{
+    position: relative;
+    height: 110vh;
+    background-color: #FFF3E4;
+    overflow-x: hidden;
+}
+
+.form{
+    position: absolute;
+    background-color: #EED6C4;
+    width: 60vw;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 12rem;
+    text-align: center;
+    height: auto;
+}
+
+label{
+    font-size: 2.4rem;
+}
+
+.form-control{
+    font-size: 1.8rem;
+}
+
+.selector{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #6B4F4F ;
+    color: #FFF3E4;
+}
+
+.selector:hover{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #6B4F4F ;
+        color: #FFF3E4;
+}
+
+.btn{
+    font-size: 2rem;
+    background-color: orange;
+    border: none;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form{
+        position: absolute;
+        background-color: #EED6C4;
+        margin-top: 10rem;
+        height: fit-content;
+        width: 80vw;
+        border: none;
+        border-radius: 2rem;
+        left: 12%;
+        text-align: center;
+    }
+    label{
+        font-size: 1.6rem;
+    }
+    
+    .form-control{
+        font-size: 1.6rem;
+    }
+    .btn{
+        font-size: 1.2rem;
+        background-color: orange;
+        border: none;
+    }
+    .lower-form-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .etsy-listing{
+        font-size: small;
+        position: absolute;
+        left: 1rem;
+    }
+    .form-check-input{
+        margin-top: 2rem;
+    }
+  }

@@ -1,0 +1,138 @@
+.not-found{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+h2, p,h3{
+    cursor: default;
+}
+
+.bg{
+        position: relative;
+        height: 100vh;
+        background-color: #FFF3E4;
+        overflow-x: hidden;
+}
+
+
+.container{
+    margin-top: 20rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.one{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.one p{
+    font-size: 18px;
+    color: gray;
+    padding: 0.5rem;
+}
+
+.one h2{
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+
+.one h3{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.one a{
+    font-size: 3rem;
+    color: blue;
+}
+
+.one a:hover{
+    text-decoration: underline;
+}
+
+.two{
+    
+}
+
+.two-image{
+    width: 640px;
+    height: 480px;
+    margin-top: 1rem;
+}
+
+
+.three{
+    background-color: #EED6C4;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.three h2{
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+
+.three p{
+    font-size: 18px;
+    color: gray;
+    padding: 1rem;
+}
+
+#price-container h2{
+    font-size: 3rem;
+}
+
+
+.link{
+    color: orange;
+    font-size: 3rem;
+}
+
+.link:hover{
+    color: #FFF3E4;
+    text-decoration: underline;
+}
+
+.delete{
+    width: 90%;
+}
+
+
+#cost-container{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .two-image{
+        width: 340px;
+        height: 191px;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .row{
+        display: block;
+    }
+  }
+
+
+  @media screen and (max-width: 820px) and (min-width: 601px) {
+    .two-image{
+        width: 640px;
+        height: 360px;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .row{
+        display: block;
+    }
+  }
