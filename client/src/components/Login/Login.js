@@ -20,7 +20,7 @@ const Login = () => {
         },{withCredentials:true, credentials:'include'})
         .then((res) => {
             console.log("User logged in")
-            navigate('/explore')
+            navigate('/allProducts')
         }).catch((err) => {
             console.log(err)
             setErrors(err.response.data.error)
@@ -28,7 +28,7 @@ const Login = () => {
     }
 
   return (
-    <div className='login-bg'>
+    <div className='bg'>
     <Nav></Nav>
         <form className='login-form' onSubmit={loginHandler} >
         <h4 className='registration-title'>Login</h4>

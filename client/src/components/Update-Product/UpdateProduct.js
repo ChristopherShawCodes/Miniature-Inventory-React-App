@@ -49,7 +49,7 @@ export const UpdateProduct = () => {
         },{withCredentials:true, credentials:'include'})
         .then(response => {
             console.log(response)
-            navigate('/')
+            navigate('/allProducts')
         })
         .catch((err)=>{
             console.log(err)
